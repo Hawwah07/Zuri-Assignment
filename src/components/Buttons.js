@@ -3,7 +3,7 @@ import React from "react";
 export default function Buttons() {
     return (
        <div className="btn">
-        <a id="twitter" target="_blank" href="twitterlinkwhenimakeit"><p>Twitter Link</p></a>
+        <a id="twitter" target="_blank" href="https://twitter.com/Alesh_Hawwah"><p>Twitter Link</p></a>
         <a target="_blank" id="btn__zuri" href="https://training.zuri.team/"><p>Zuri Team</p></a>
         
         <a target="_blank" id="books" href="http://books.zuri.team ">

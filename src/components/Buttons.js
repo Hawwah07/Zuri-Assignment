@@ -8,11 +8,11 @@ export default function Buttons() {
         
         <a target="_blank" id="books" href="http://books.zuri.team ">
             <p>Zuri Books</p>
-            <small>You can get books about design and coding here</small>
+            <small>Get books about design and coding here</small>
             </a>
         <a target="_blank" id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=Hawwah">
             <p>Python Books</p>
-            <small>Get Python book for beginners and start coding Today! </small>
+            <small>Get Python books and start coding Today! </small>
             </a>
         <a target="_blank" id="pitch" href="https://background.zuri.team">
             <p>Background Check for Coders</p>

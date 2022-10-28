@@ -20,7 +20,7 @@ export default function Buttons() {
             </a>
         <a target="_blank" id="book__design" href="https://books.zuri.team/design-rules">
             <p>Design Book</p>
-            <small>Click and get Free Design Book Offered by Zuri</small>
+            <small>Get Free Design Book Offered by Zuri</small>
             </a>
         
        </div> 

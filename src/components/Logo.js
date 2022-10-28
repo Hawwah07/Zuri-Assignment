@@ -6,7 +6,7 @@ export default function Logo() {
     return (
         <div className="logo">
         <img src={slack} className="slack-logo"/>
-        <img src={Iconcat} className="slack-logo"/>
+        <img src={Iconcat} className="github-logo"/>
         </div>
     )
 }

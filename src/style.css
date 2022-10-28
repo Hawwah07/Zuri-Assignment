@@ -71,3 +71,14 @@
     color: #101828;
 }
 /* For Logo */
+.logo {
+    margin: 24px auto 64px auto;
+}
+.slack-logo {
+    margin: 24px auto 25px 27px;
+}
+.github-logo {
+    margin: 24px auto 25px 27px;
+}
+
+/* For Footer */

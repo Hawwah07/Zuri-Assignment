@@ -1,5 +1,27 @@
+@media screen and (max-width: 375px) {
+    /* mobile view */
+  }
+* {
+    box-sizing: border-box;
+}
+/* For Profile */
 .container {
-    width: 375px;
     height: 892px;
-    background-color: aqua;
+    background-color: #F4F5F7;
+    text-align: center;
+}
+#profile__img {
+    border-radius: 275px;
+    margin-top: 60px;
+}
+.profile > h3 {
+    margin-top: 15px;
+}
+.arrow {
+    float: right;
+    margin-top: -180px;
+    margin-right: 150px;
+    z-index: 2;
+    border: 1px dashed #D0D5DD;
+border-radius: 20px;
 }

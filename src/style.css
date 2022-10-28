@@ -1,5 +1,13 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 720px) {
   /* mobile view */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: auto auto auto auto;
+}
+
 }
 * {
   box-sizing: border-box;

@@ -10,7 +10,7 @@ export default function Form() {
             </div>
             <div className="last-name">
             <label className="last-name-label">Last Name</label>
-            <input type="text" height="" width="" id="last_name" placeholder="Enter your lastt name" />
+            <input type="text" height="" width="" id="last_name" placeholder="Enter your last name" />
             </div>
             
             </div>

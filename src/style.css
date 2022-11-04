@@ -15,6 +15,9 @@
     #first_name {
       margin-top: 40px;
     }
+    #first_name, #last_name {
+      width: 20em;
+    }
 
 }
 * {

@@ -4,13 +4,14 @@ export default function Form() {
     return (
         <form className="form-container">
             <div className="form-name">
-            <label>First Name
+                <div className="first-name">
+            <label className="first-name-label">First Name</label>
             <input type="text" id="first_name" placeholder="Enter your first name" />
-            </label>
-            
-            <label>Last Name
+            </div>
+            <div className="last-name">
+            <label className="last-name-label">Last Name</label>
             <input type="text" height="" width="" id="last_name" placeholder="Enter your lastt name" />
-            </label>
+            </div>
             
             </div>
             <label>Email

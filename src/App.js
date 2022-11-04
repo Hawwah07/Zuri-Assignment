@@ -10,7 +10,7 @@ export default function App() {
         <div>
         <Router>
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/Zuri-Assignment" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
         </Routes>
         </Router>

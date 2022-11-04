@@ -2,7 +2,7 @@
   "name": "linktree",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Hawwah07.github.io/Zuri-Assignment",
+  "homepage": "https://Hawwah07.github.io/Zuri-Assignment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

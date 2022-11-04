@@ -22,7 +22,7 @@ export default function Buttons() {
             <p>Design Book</p>
             <small>Get Free Design Book Offered by Zuri</small>
             </a>
-        <a target="_blank" id="contact" href="/contact">
+        <a target="_blank" id="contact" href="Zuri-Assignment/contact">
             <p>Contact Me</p>
             </a>
         

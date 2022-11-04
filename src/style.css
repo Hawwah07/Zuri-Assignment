@@ -6,7 +6,15 @@
     justify-content: space-between;
     justify-content: space-around;
     padding: auto auto auto auto;
-}
+  }
+    .form-name {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    #first_name {
+      margin-top: 40px;
+    }
 
 }
 * {
@@ -126,12 +134,13 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin-top: 6px;
+margin-bottom: 20px;
+margin-right: 24px;
 }
 .form-name {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 #email, #message {

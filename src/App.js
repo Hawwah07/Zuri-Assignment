@@ -1,17 +1,19 @@
 import React from "react";
 import "./style.css"
-import Profile from "./components/Profile"
-import Buttons from "./components/Buttons"
-import Logo from "./components/Logo"
-import Footer from "./components/Footer"
+import Home from "./pages/Home"
+import Contact from "./pages/Contact"
+import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 
 export default function App() {
     return (
-        <div className="container">
-            <Profile />
-            <Buttons />
-            <Logo />
-            <Footer />
+        <div>
+        <Router>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+        </Router>
         </div>
     )
 }

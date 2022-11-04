@@ -15,8 +15,9 @@
     #first_name {
       margin-top: 40px;
     }
-    #first_name, #last_name {
-      width: 20em;
+    #first_name, #last_name, .first-name, .last-name, .last-name-label, .first-name-label {
+      width: 100%;
+      overflow: hidden;
     }
 
 }
@@ -137,18 +138,22 @@ margin-right: 24px;
 }
 .first-name, .last-name{
 display: flex;
+
 flex-direction: column;
 }
 #first_name, #last_name {
-  width: 39em;
+  
+  width: 36em;
+}
+.first-name-label, .last-name-label {
+  overflow: hidden;
 }
 #first_name {
-  margin-right: 50px;
+  margin-right: 20px;
 }
 .form-name {
   display: flex;
   flex-direction: row;
-
 }
 
 #email, #message {

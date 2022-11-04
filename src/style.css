@@ -7,20 +7,18 @@
     justify-content: space-around;
     padding: auto auto auto auto;
   }
-    .form-name {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    #first_name {
-      margin-top: 40px;
-    }
-    #first_name, #last_name, .first-name, .last-name, .last-name-label, .first-name-label {
-      width: 100%;
-      overflow: hidden;
-    }
+.name-div {
+  flex-wrap: wrap;
+}
+.first-name-div, .last-name-div {
+  margin-right: 0px;
+}
+
 
 }
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -125,10 +123,7 @@
   font-family: 'Inter';
 }
 #first_name, #last_name, #email, #message{
-  box-sizing: border-box;
-/* display: flex;
-flex-direction: row;
-align-items: center; */
+box-sizing: border-box;
 padding: 10px 14px;
 height: 44px;
 background: #FFFFFF;
@@ -137,28 +132,33 @@ box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 border-radius: 8px;
 margin-top: 6px;
 margin-bottom: 20px;
-margin-right: 24px;
+/* margin-right: 24px; */
 }
-.first-name, .last-name{
-display: flex;
 
-flex-direction: column;
-}
-#first_name, #last_name {
-  
-  width: 36em;
-}
-.first-name-label, .last-name-label {
-  overflow: hidden;
-}
-#first_name {
-  margin-right: 20px;
-}
-.form-name {
+ /* .first-name-label, .last-name-label {
+  display: block;
+
+}  */
+.name-div {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.first-name-div {
+  display: flex;
+  /* justify-items: flex-start; */
+  flex-direction: column;
+  width: 100%;
+  margin-right: 10px;
 }
 
+.last-name-div {
+  display: flex;
+  /* justify-items: flex-end; */
+  flex-direction: column;
+  width: 100%;
+  
+}
 #email, #message {
   width: 100%;
   margin-bottom: 20px;
@@ -169,10 +169,11 @@ flex-direction: column;
 #checkbox {
   border: 1px solid #D0D5DD;
 border-radius: 6px;
-
-
-
 }
+.box-div {
+  margin-bottom: 20px;
+}
+
 .checkbox-label {
   font-family: 'Inter';
   font-style: normal;

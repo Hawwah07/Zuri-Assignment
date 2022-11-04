@@ -43,7 +43,7 @@
   flex-direction: column;
   justify-content: center;
 }
-#twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+#twitter, #btn__zuri, #books, #book__python, #pitch, #book__design, #contact{
     text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@
   order: 0;
   flex-grow: 1;
 }
-#twitter > p, #btn__zuri > p, #books > p, #book__python > p, #pitch > p, #book__design {
+#twitter > p, #btn__zuri > p, #books > p, #book__python > p, #pitch > p, #book__design, #contact{
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -71,7 +71,7 @@
     padding-bottom:0px;
 }
 
-#btn__zuri, #books, #book__python, #pitch, #book__design {
+#btn__zuri, #books, #book__python, #pitch, #book__design, #contact {
     margin-top: 20px;
 }
 #books > small, #book__python > small, #pitch > small, #book__design > small {
@@ -101,4 +101,89 @@
 }
 .footer > small, .footer > img {
     margin: auto auto 50px auto;
+}
+
+/* Form page */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+#first_name, #last_name, #email, #message{
+  box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 14px;
+gap: 8px;
+width: 348px;
+height: 44px;
+background: #FFFFFF;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 6px;
+}
+.form-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#email, #message {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#message {
+  height: 108px;
+}
+#checkbox {
+  border: 1px solid #D0D5DD;
+border-radius: 6px;
+
+
+
+}
+.checkbox-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #475467;
+  margin-bottom: 32px;
+}
+
+#btn__submit {
+  width: 720px;
+height: 48px;
+background: #1570EF;
+border: 1px solid #1570EF;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+margin-bottom: 100px;
+}
+
+.contact-h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;;
+  
+}
+.contact-p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #475467;
+  margin-bottom: 48px;
 }

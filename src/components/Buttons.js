@@ -23,7 +23,7 @@ export default function Buttons() {
             <p>Design Book</p>
             <small>Get Free Design Book Offered by Zuri</small>
             </a>
-        <Link id="contact" to="/Zuri-Assignment/contact">
+        <Link id="contact" to="/contact">
             <p>Contact Me</p>
             </Link>
         

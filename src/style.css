@@ -194,6 +194,13 @@ border-radius: 8px;
 margin-bottom: 100px;
 }
 
+#btn__submit:hover {
+  background: #175CD3;
+}
+#btn__submit:active {
+  background: #B2DDFF;
+}
+
 .contact-h1 {
   font-family: 'Inter';
   font-style: normal;

@@ -71,7 +71,7 @@ export default function Form() {
             />
             You agree to providing your data to Hawwah who may contact you.
           </label>
-            {errors.message && <p className="errortext">Please check this box.</p>}
+            {errors.checkbox && <p className="errortext">Please check this box.</p>}
         </div>
         <button type="submit" id="btn__submit" value="submit">
           Send message

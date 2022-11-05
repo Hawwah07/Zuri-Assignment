@@ -3,7 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <div className="form-container">
-      <form>
+      <form action="/new.php">
         <div className="name-div">
           <div className="first-name-div">
             <label className="first-name-label">First Name</label>
@@ -11,6 +11,7 @@ export default function Form() {
               type="text"
               id="first_name"
               placeholder="Enter your first name"
+              required
             />
           </div>
 
@@ -22,6 +23,7 @@ export default function Form() {
               width=""
               id="last_name"
               placeholder="Enter your last name"
+              required
             />
           </div>
         </div>
@@ -34,6 +36,7 @@ export default function Form() {
             width=""
             id="email"
             placeholder="yourname@email.com"
+            required
           />
         </div>
         <div class="message-div">
@@ -41,15 +44,16 @@ export default function Form() {
           <textarea
             id="message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
+            required
           ></textarea>
         </div>
         <div className="box-div">
           <label className="checkbox-label">
-            <input type="checkbox" id="checkbox" />
+            <input type="checkbox" id="checkbox" required />
             You agree to providing your data to Hawwah who may contact you.
           </label>
         </div>
-        <button type="button" id="btn__submit">
+        <button type="submit" id="btn__submit" value="submit">
           Send message
         </button>
       </form>

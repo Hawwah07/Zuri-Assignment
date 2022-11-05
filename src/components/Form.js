@@ -1,9 +1,10 @@
+import { click } from "@testing-library/user-event/dist/click";
 import React from "react";
 
 export default function Form() {
   return (
     <div className="form-container">
-      <form action="/new.php">
+      <form action="/new.php" onSubmit={click}>
         <div className="name-div">
           <div className="first-name-div">
             <label className="first-name-label">First Name</label>
@@ -11,7 +12,7 @@ export default function Form() {
               type="text"
               id="first_name"
               placeholder="Enter your first name"
-              required
+              required="required"
             />
           </div>
 

@@ -14,7 +14,7 @@ export default function Form() {
       <form action="/new.php" onSubmit={handleSubmit(onSubmit)}>
         <div className="name-div">
           <div className="first-name-div">
-            <label className="first-name-label">First Name</label>
+            <label className="first-name-label" htmlFor="first_name">First Name</label>
             <input
               type="text"
               id="first_name"
@@ -26,7 +26,7 @@ export default function Form() {
           </div>
 
           <div className="last-name-div">
-            <label className="last-name-label">Last Name</label>
+            <label className="last-name-label" htmlFor="last_name">Last Name</label>
             <input
               type="text"
               height=""
@@ -41,7 +41,7 @@ export default function Form() {
         </div>
 
         <div class="email-div">
-          <label>Email</label>
+          <label htmlFor="email">Email</label>
           <input
             type="text"
             height=""
@@ -54,7 +54,7 @@ export default function Form() {
           {errors.email && <p className="errortext">Please check the Email</p>}
         </div>
         <div class="message-div">
-          <label>Message </label>
+          <label htmlFor="message">Message </label>
           <textarea
             id="message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
@@ -64,7 +64,7 @@ export default function Form() {
           {errors.message && <p className="errortext">Please enter a message.</p>}
         </div>
         <div className="box-div">
-          <label className="checkbox-label">
+          <label className="checkbox-label" htmlFor="checkbox">
             <input type="checkbox" id="checkbox"
             {...register("checkbox", { required: true })}
             //  required 
